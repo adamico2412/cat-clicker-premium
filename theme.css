@@ -12,3 +12,10 @@ div {
     height: 200px;
     width: 200px;
 }
+
+label {
+display:inline-block;
+width:100px;
+margin-right:30px;
+text-align:right;
+}

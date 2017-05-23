@@ -8,6 +8,17 @@
 <body>
     <div id="catList"></div>
     <div id="catDisplay"></div>
+    <br/>
+    <button id="adminFormButton" style="margin-bottom: 15px;">Admin</button>
+    <form id="adminForm" hidden>
+        <label>Name</label><input type="text" id="adminName">
+        <br/>
+        <label>Img Url</label><input type="text" id="adminUrl">
+        <br/>
+        <label># of Clicks</label><input type="text" id="adminClicks">
+        <br/>
+        <input id="adminSave" type="submit" value="Save"></input>
+    </form>
 
     
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
