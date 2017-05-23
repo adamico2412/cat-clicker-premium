@@ -1,0 +1,14 @@
+img {
+    width:  100px;
+    height: 100px;
+}
+
+div {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#catDisplay {
+    height: 200px;
+    width: 200px;
+}
